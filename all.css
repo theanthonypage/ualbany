@@ -1,3 +1,16 @@
+@media(max-width:1000px){
+	.sideblock {
+		display:none;
+	}
+	.row {
+		display:none;
+	}
+	.submenu {
+		display:none;
+	}
+}
+
+
 body {
 	margin: 0;
 	padding: 0;
@@ -30,12 +43,12 @@ input, textarea, select {
 }
 /*main holders*/
 #page {
-	width: 100%;
+	max-width: 100%;
 	overflow: hidden;
 }
 #wrapper {
 	margin: 0 auto;
-	width: 976px;
+	max-width: 976px;
 }
 /*header*/
 #header {
@@ -340,6 +353,7 @@ input, textarea, select {
 }
 /*main gallery*/
 .main-gallery {
+	display:none;
 	background: #fff;
 	margin: 0 -24px 0 -22px;
 	padding: 6px 6px 6px 7px;
