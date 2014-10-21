@@ -10,6 +10,20 @@
 	}
 }
 
+@media(min-width:940){
+	#content {
+		float:none;
+	}
+	#twocolumns {
+		float:none;
+	}
+	#sidebar {
+		float:none;
+	}
+	#aside {
+		float:none;
+	}
+}
 
 body {
 	margin: 0;
